@@ -1,0 +1,13 @@
+/*
+  CReated by M Lowe 12/03/2022
+
+
+*/
+
+
+
+
+Create Proc usp_SelectCustomers (@CustomerID Int)
+as
+Select CustomerID, LastName, FirstName, Email From Customers
+Order by CustomerID
